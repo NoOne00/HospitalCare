@@ -5,14 +5,14 @@ import java.util.ArrayList;
 public class PrescricaoVerbal {
 	
 	private AutorizacaoPrescricao autorizacaoPrescricao;
-	ArrayList <Enfermeiro> Enfermeiro;
+	private Enfermeiro enfermeiro;
 	
 
 	public PrescricaoVerbal(AutorizacaoPrescricao autorizacaoPrescricao,
 			ArrayList<hospitalcare.Enfermeiro> enfermeiro) {
 		super();
 		this.autorizacaoPrescricao = autorizacaoPrescricao;
-		Enfermeiro = enfermeiro;
+		enfermeiro = enfermeiro;
 	}
 
 
